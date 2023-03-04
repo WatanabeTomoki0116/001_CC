@@ -417,7 +417,7 @@ input[type="submit"] {
 <p>Referrer blog <a target="_blank" href="https://blogs.sap.com/2023/03/01/currency-widget-to-display-real-time-currency-conversion-in-sap-analytics-cloud-apps/?source=email-global-notification-bp-new-in-tag-followed">Click</a></p>
 </form>
 `;
-    class BuilderPanel extends HTMLElement {
+    class ZTWBuilderPanel extends HTMLElement {
         constructor() {
             super();
             this._shadowRoot = this.attachShadow({
