@@ -470,7 +470,7 @@ input[type="submit"] {
         }
     }
     customElements.define(
-        "com-rohitchouhan-currencywidget-builder",
+        "com-ZTW-currencywidget-builder",
         BuilderPanel
     );
 })();
