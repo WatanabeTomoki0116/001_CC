@@ -5,11 +5,11 @@
         :host {}
       </style>
       <div>
-        <p>Currency Rate: <span id="conversionRate"></span></p>
+        <p>Current Conversion Rate: <span id="conversionRate"></span></p>
       </div>
     `;
 
-  class CurrencyWidget extends HTMLElement {
+  class ztwCurrencyWidget extends HTMLElement {
     constructor() {
       super();
       let shadowRoot = this.attachShadow({
@@ -57,5 +57,5 @@
 		}
   }
 
-  customElements.define("com-ZTW-currencywidget", ZTWCurrencyWidget);
+  customElements.define("com-ztw-currencywidget", ztwCurrencyWidget);
 })();
