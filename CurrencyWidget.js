@@ -5,7 +5,7 @@
         :host {}
       </style>
       <div>
-        <p>Current Conversion Rate: <span id="conversionRate"></span></p>
+        <p>通貨換算レート: <span id="conversionRate"></span></p>
       </div>
     `;
 
@@ -57,5 +57,5 @@
 		}
   }
 
-  customElements.define("com-rohitchouhan-currencywidget", CurrencyWidget);
+  customElements.define("com-ZTW-currencywidget", CurrencyWidget);
 })();
