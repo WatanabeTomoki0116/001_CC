@@ -414,7 +414,7 @@ input[type="submit"] {
 <input id="__button210-BDI-content"  value="Update Settings" type="submit" >
 <br>
 
-<p>Referrer blog <a target="_blank" href="https://blogs.sap.com/2023/03/01/currency-widget-to-display-real-time-currency-conversion-in-sap-analytics-cloud-apps/?source=email-global-notification-bp-new-in-tag-followed">Click</a></p>
+<p>詳細は<a target="_blank" href="https://blogs.sap.com/2023/03/01/currency-widget-to-display-real-time-currency-conversion-in-sap-analytics-cloud-apps/?source=email-global-notification-bp-new-in-tag-followed">こちらのブログから</a></p>
 </form>
 `;
     class ZTWBuilderPanel extends HTMLElement {
